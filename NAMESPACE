@@ -1,0 +1,3 @@
+useDynLib(goertzel)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)

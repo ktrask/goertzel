@@ -1,0 +1,11 @@
+Package: goertzel
+Type: Package
+Title: Calculates individual terms of the discrete Fourier transform using the Goertzel algorithm
+Version: 1.0
+Date: 2017-01-17
+Author: Helena Schmidt
+Maintainer: Helena Schmidt <helena.schmidt@ktrask.de>
+Description: The Goertzel algorithm is faster than using a fast Fourier transform, if only a few Fourier components are requested
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.3)
+LinkingTo: Rcpp
